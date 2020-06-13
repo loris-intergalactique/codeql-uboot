@@ -4,5 +4,5 @@ import cpp
 from Macro m
 where m
     .getName()
-    .regexpMatch("ntoh[a-zA-Z]")
+    .regexpMatch("ntoh.*")
 select m, "ntoh*"
